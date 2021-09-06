@@ -1,0 +1,11 @@
+Route::group(['prefix'=>'account','namespace'=>'App\Http\Controllers'],function(){
+    Route::get('/login',function(){
+        return "From Login";
+    });
+    Route::get('/signup',function(){
+        return "From Sign Up";
+    });
+    Route::get('/logout',function(){
+        return "From Logout";
+    });
+});
